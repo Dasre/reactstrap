@@ -4,7 +4,7 @@ $Offset_left: 50%;
 
 .timelineSection{
   position: relative;
-  height: 100vh;
+  
   &::after{
     content: "";
     position: absolute;
@@ -36,8 +36,15 @@ $Offset_left: 50%;
   }
 }
 
+@media(max-width: 768px){
+  .timelineSection::after,
+  .timelinePointer::after{
+    display: none;
+  }
+}
+
 .img{
-  height: 100px;
-  background-color: purple;
+  height: auto;
+  width: 100%;
   border: 1px solid white;
 }

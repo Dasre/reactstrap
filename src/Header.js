@@ -22,10 +22,10 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink className="text-white" href="/components/">關於我</NavLink>
+              <NavLink className="text-white" href="#aboutme">關於我</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">作品集</NavLink>
+              <NavLink className="text-white" href="#collection">作品</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
